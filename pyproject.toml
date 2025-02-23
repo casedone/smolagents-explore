@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "smolagents-project"
+version = "0.1.0"
+description = ""
+authors = ["Pisek <psk.light@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+smolagents = "^1.7.0"
+python-dotenv = "^1.0.1"
+transformers = "^4.48.2"
+torchvision = "^0.21.0"
+gradio = "^5.14.0"
+arize-phoenix = "^7.9.4"
+opentelemetry-sdk = "^1.29.0"
+opentelemetry-exporter-otlp = "^1.29.0"
+openinference-instrumentation-smolagents = "^0.1.2"
+selenium = "^4.28.1"
+helium = "^5.1.0"
+pillow = "^11.1.0"
+litellm = "^1.60.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
